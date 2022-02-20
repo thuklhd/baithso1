@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class App30 {
+    public static void main(String[] args) throws Exception {
+        int b,a;
+        Scanner ip= new Scanner(System.in);
+        System.out.println("nhap vao so thu nhat");
+        a = ip.nextInt();
+        System.out.println("nhap vao so thu hai");
+        b = ip.nextInt();
+        if(a>b)
+        System.out.println(b+"la so nho nhat");
+        else
+        System.out.println(a+"la so nho nhat");
+
+
+
+    }
+}
